@@ -1,0 +1,18 @@
+name: RPChatPlus
+version: '${project.version}'
+main: org.rpchatplus.RPChatPlus
+api-version: '1.19'
+authors: [ Axmon, Amon, Anonventions, KreatingMania ]
+commands:
+  global:
+    description: Chat globally.
+  staff:
+    description: Chat among staff.
+  rp:
+    description: Chat for roleplaying.
+  local:
+    description: Chat locally within the world.
+  rpc:
+    description: Base command for RPChatPlus functionalities.
+    usage: /<command> [reload]
+    aliases: [ rpchatplus ]

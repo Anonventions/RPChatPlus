@@ -1,0 +1,21 @@
+chat:
+  global:
+    prefix: "&6[Global] " #chat prefix name and colour
+    style: "&f" #text colour in chat
+  local:
+    prefix: "&c[Local] " #chat prefix name and colour
+    style: "&f" #text colour in chat
+    radius: 100 # Default radius for local chat
+
+  rp:
+    prefix: "&e[RP] "
+    action_color: "&b&l" #*Your action/emote* text color
+    message_color: "&f&o" #“Your Text” text color
+    enabled: false # Whether RP radius chat is enabled
+    radius: 50 # Radius for RP chat visibility
+
+  staff:
+    prefix: "&2[Staff] " #chat prefix name and colour
+    style: "&f" #text colour in chat
+
+
